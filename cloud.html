@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <link rel="apple-touch-icon" sizes="57x57" href="assets/icon/apple-icon-57x57.png">
@@ -21,11 +22,12 @@
 <meta name="theme-color" content="#ffffff">
 
     <meta charset="UTF-8">
-    <title>Главная страница</title>
-    <meta name="description" content="КиноБаза - это портал о кино"/>
-    <meta name="keywords" content="фильмы, фильмы онлайн, hd"/>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <meta name="description" content="КиноБаза - это портал о кино" />
+    <title>Фильм Облачный атлас</title>
+    <meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <main>
         <header>
@@ -37,29 +39,29 @@
             </div>
             <nav>
                 <ul class="menu">
-                    <li class="selected"><a href="index.html">Главная</a></li>
-                    <li><a href="films.html">Фильмы</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="selected"><a href="films.html">Фильмы</a></li>
                     <li><a href="serials.html">Сериалы</a></li>
                     <li><a href="rating.html">Рейтинг фильмов</a></li>
                     <li><a href="contact.html">Контакты</a></li>
                 </ul>
-            </nav>
+            </div>
         </header>
         <div class="site_content">
             <aside>
                 <div class="sidebar">
                     <h2>Поиск</h2>
                     <form method="post" action="#" id="search_form">
-                        <input type="search" name="search_field" placeholder="ваш запрос"/>
-                        <input type="submit" class="btn" value="Найти"/>
+                        <input type="search" name="search_field" placeholder="ваш запрос" />
+                        <input type="submit" class="btn" value="Найти" />
                     </form>
                 </div>
                 <div class="sidebar">
                     <h2>Вход</h2>
                     <form action="#" method="post" id="login">
-                        <input type="text" name="login_field" placeholder="логин"/>
-                        <input type="password" name="password_field" placeholder="пароль"/>
-                        <input type="submit" class="btn" value="Вход"/>
+                        <input type="text" name="login_field" placeholder="логин" />
+                        <input type="password" name="password_field" placeholder="пароль" />
+                        <input type="submit" class="btn" value="Вход" />
                         <div class="lables_passred_text">
                             <span><a href="#">забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
                         </div>
@@ -82,46 +84,50 @@
                 </div>
             </aside>
             <section>
-                <h1>Новые фильмы</h1>
-                <div class="films_block">
-                    <a href="matrix.html"><img src="assets/img/matrix.png"></a>
-                    <a href="max.html"><img src="assets/img/max.png"></a>
-                    <a href="inter.html"><img src="assets/img/inter.png"></a>
-                    <a href="cloud.html"><img src="assets/img/cloud.png"></a>
+                <h1>Облачный атлас</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K2VtiZSvwuo" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="info_film_page">
+                    <span class="label">Рейтинг:</span><span class="value">7.4 / 10</span>
+                    <span class="label">год:</span><span class="value">2012</span>
+                    <span class="label">режиссер:</span class="value">Лана Вачовски, Лилли Вачовски, Том Тыквер<span></span>
                 </div>
-                <h1>Новые сериалы</h1>
-                <div class="films_block">
-                    <a href="dead.html"><img src="assets/img/dead.png"></a>
-                    <a href="silicon.html"><img src="assets/img/silicon.png"></a>
-                    <a href="breakingbad.html"><img src="assets/img/breakingbad.png"></a>
-                    <a href="xfiles.html"><img src="assets/img/xfiles.png"></a>
+                <hr>
+                <h2>Описание Облачный атлас</h2>
+                <div class="descriptions_film">
+                    <img src="assets/img/cloud.png">
+                    Шесть историй — пять реинкарнаций, происходящих в разное время, тесно переплетаются между собой…
                 </div>
-                <article>
-                    <hr>
-                    <h2><a href="#">Как снимали Интерстеллар</a></h2>
-                    <div class="posts_content">
-                        <p>
-                            45 лет исполнилось Кристоферу Нолану - одному из самых успешных
-                            режиссеров нашего времени, чьи работы одинаково любимы как
-                            взыскательными критиками, так и простыми зрителями. Фильмом
-                            изначально занималась студия Paramount. Когда Кристофер Нолан занял
-                            место режиссера, студия Warner Bros., которая выпустила его последние
-                            фильмы, добилась участия в проекте.
-                        </p>
+                <hr>
+                <h2>Отзывы об Облачный атлас</h2>
+                <div class="reviews">
+                    <div class="review_name">
+                        Сергей
                     </div>
-                    <p><a href="#">читать</a></p>
-                    <hr>
-                    <h2><a href="#">Актер Том Хенкс поделился впечатлением о фестивале</a></h2>
-                    <div class="posts_content">
-                        <p>
-                            16 февраля в Лондоне состоялась 67-я церемония вручения наград
-                            Британской киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли,
-                            Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бейл, Альфонсо Куарон и
-                            другие гости и победители премии - в нашем репортаже.
-                        </p>
+                    <div class="review_text">
+                        Фильм- вышка. Я бы даже не стал писать на него рецензию или краткое описание.
+                        В кратце его не пересказать, а лицензия не имеет смысла, так как многие все равно не поймут.
+                        Но, фильм занимает первое место в моем личном рейтинге. Здесь есть все: интрига, офигенный сюжет, актерская игра,
+                        комедия и драма.
                     </div>
-                    <p><a href="#">читать</a></p>
-                </article>
+                </div>
+                <div class="reviews">
+                    <div class="review_name">
+                        Дмитрий
+                    </div>
+                    <div class="review_text">
+                        Это мой самый любимый фильм. Очень сильный и глубоки смысл. Лучше еще не видел и сомневаюсь что увижу. Фильм для
+                        мыслящих людей.
+                    </div>
+                </div>
+                <div class="send">
+                    <form action="#" method="post" id="review">
+                        <input type="text" name="review_name" placeholder="ваше имя">
+                        <textarea name="review_text"></textarea>
+                        <input class="btn" type="submit" value="отправить">
+                    </form>
+                </div>
             </section>
         </div>
         <footer>
@@ -130,10 +136,13 @@
                 <a href="films.html">Фильмы</a> |
                 <a href="serials.html">Сериалы</a> |
                 <a href="rating.html">Рейтинг фильмов</a> |
-                <a href="contact.html">Контакты</a> 
+                <a href="contact.html">Контакты</a>
             </p>
-            <a href="https://www.kinopoisk.ru/"><p>kinopoisk.ru</p></a>
+            <a href="https://www.kinopoisk.ru/">
+                <p>kinopoisk.ru</p>
+            </a>
         </footer>
     </main>
 </body>
+
 </html>
