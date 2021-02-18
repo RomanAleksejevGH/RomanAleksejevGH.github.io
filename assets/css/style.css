@@ -1,14 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
+html{
+    height: 100%;
+    width: 100%;
 }
 body{
-    min-height: 720px;
-    min-width: 400px;
-    background-color: #fff;
+    height: 100%;
+    width: 100%;
     background: url("../img/background.jpg") center/cover no-repeat;
 }
 main{
+    display: table;
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 header{
@@ -17,12 +19,11 @@ header{
     
     background-color: rgba(73, 70, 70, 0.671);
     margin: 0;
-    min-width: 400px;
-    min-height: 50px;
 }
 section{
-    min-height: 512px;
-    width: auto;
+    display: table-row;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     margin: 5px auto 20px auto;
     font: 1.7em 'century gothic', arial ;
@@ -37,35 +38,17 @@ section h2{
     color: rgb(221, 221, 221);
 }
 footer{
-    vertical-align: bottom;
-    width: 100%;
-    height: 100px;
     padding: 28px 0 5px 0;
     text-align: center;
     background-color: rgba(73, 70, 70, 0.671);
     color: rgb(221, 221, 221);
-    margin-left: 0px;
-    margin-right: 0px;
-    min-width: 400px;
 }
 footer h2{
     font: 1.7em 'century gothic', arial ;
 }
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px){
-    header {
-        background-color: #257965;
-        min-width: 100%;
-        height: 20%;
-        text-align: center;
-    }
-    section{
-        width: 100%;
-        text-align: center;
-    }
+@media (max-width: 767px){
     iframe{
-        width: 88%;
+        width: 100%;
         height: 100%;
     }
 }
