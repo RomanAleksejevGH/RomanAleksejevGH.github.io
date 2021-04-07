@@ -16,6 +16,22 @@ html{
     background: url(../img/bg/main_bg.png) center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
+.line::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 220px;
+    background-color: white;
+    transform: translate(70px, -47px);
+}
+.line::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 220px;
+    background-color: white;
+    transform: translate(850px, -47px);
+}
 .logo .logo_img{
     display: block;
     margin: 0 auto;
