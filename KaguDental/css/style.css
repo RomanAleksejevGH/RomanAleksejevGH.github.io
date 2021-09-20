@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap);
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,7 @@
 html{
     height: auto;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 .contact, nav, .slider, .can_do{
     position: relative;
@@ -56,7 +57,7 @@ ul.menu li{
   margin-top: 76px;
 }
 ul.menu li.logo{
-    margin-right: 80px ;
+    margin-right: 50px ;
     margin-top: 0;
 }
 .logo_img{
@@ -66,9 +67,8 @@ ul.menu li.logo{
 }
 ul.menu li a{
     font-weight: 500;
-    padding: 0px 20px 0px 20px;
-    font-family: Roboto Medium;
-    font-size: 24px;
+    padding: 0px 18px;
+    font-size: 22px;
     display: block;
     color: black;
     text-decoration: none;
@@ -83,11 +83,10 @@ ul.menu li a:hover{
 
 /* Language Button */
 .langbtn {
-  padding: 0px 32px 0px 20px;
-  font-family: Roboto Medium;
+  padding: 0px 20px 0px 18px;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-  font-size: 24px;
+  font-size: 22px;
   border: none;
 }
 .lang {
@@ -108,9 +107,9 @@ ul.menu li a:hover{
   display: block;
 }
 .lang_img{
-    left: 110px;
+    left: 115px;
     position: absolute;
-    margin-top: 3px;
+    margin-top: 0px;
     height: 23px;
     width: 24px;
 }
@@ -126,10 +125,9 @@ ul.info li{
     list-style: none;
     margin: 0;
     font-weight: 500;
-    font-family: Roboto Medium;
-    font-size: 20px;
+    font-size: 16px;
     display: block;
-    padding: 6px 26px 6px 26px;
+    padding: 6px 31px;
     color: black;
     text-decoration: none;
 }
@@ -217,7 +215,7 @@ ul.info li{
 /*works section*/
 ul.works{
     margin-top: 24px;
-    height: 368px;
+    height: 280px;
 }
 ul.works li{
   width: 220px;
@@ -225,6 +223,7 @@ ul.works li{
   float: left;
   list-style: none;
   padding: 8px 13px;
+  margin: 0px 4px;
 }
 .works_img{
   margin: auto;
@@ -245,8 +244,7 @@ ul.works li{
 .works_text{
   text-transform: uppercase;
   text-align: center;
-  font-family: Roboto Bold;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   padding-top: 16px;
   height: 74px;
@@ -257,8 +255,7 @@ ul.works li a{
   background: linear-gradient(#95AEED, #607CC2, #607CC2, #95AEED);
   text-align: center;
   padding: 10px 15px;
-  font-family: Roboto Medium;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
   text-decoration: none;
 }
@@ -271,4 +268,26 @@ ul.works li.selected a{
 }
 ul.works li a:hover{
   color: #95AEED;
+}
+/* wellcome section*/
+.wellcome{
+  background-color:rgb(149, 174, 237, 0.4);
+  margin-top: 24px;
+  padding: 0px 8px;
+  height: 280px;
+}
+.wellcome_h{
+  -webkit-text-stroke: thin;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  padding-top: 24px;
+  height: 74px;
+}
+.wellcome_text{
+
+}
+.wellcome_btn{
+
 }
